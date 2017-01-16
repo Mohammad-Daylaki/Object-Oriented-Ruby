@@ -21,8 +21,8 @@ end
 
 shereen=Person.new("shereen messi",29,"s.m@gmail.com")
 liloz=Person.new("Liloz suliman",19,"l.s@gmail.com")
-Person.find_by_name("Liloz")
+Person.find_by_name("Liloz Suliman")#=> #<Person:0x007fc817c4eed8 @name="Liloz Suliman", @age=19, @email="l.s@gmail.com">
 # shereen.normalize_name 
-Person.all[0]
+Person.all[0] #=> #<Person:0x007f0737fad8c8 @name="Shereen Messi", @age=29, @email="s.m@gmail.com">
 
  
